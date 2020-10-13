@@ -9,3 +9,25 @@
 .form-item label{
     width: 45px;
 }
+.container--form-container{
+    display: flex;
+}
+.form-wrapper{
+    border: 1px solid #B4B4F4;
+}
+table {
+    border-collapse: collapse;
+}
+table, td {
+    border: 1px solid black;
+}
+tbody{
+    width: auto;
+}
+.district-name{
+    width: 150px;
+}
+.value-cell{
+    width: 120px;
+    text-align: center;
+}

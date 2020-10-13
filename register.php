@@ -6,7 +6,8 @@
     else{
     	echo "Переменная POST не существует";
 				}
-		$conn=mysqli_connect("localhost", "user1", "123123", "reg");
+    require ("conn.php");
+		//$conn=mysqli_connect("localhost", "user1", "123456", "wt");
 		if($conn){
 			echo "Подключение установлено ";
 		}

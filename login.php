@@ -2,7 +2,7 @@
 	session_start();
 	function check($login, $password){
 		//echo md5("1234567");
-		$conn=mysqli_connect("localhost", "user1", "123123", "reg");
+		require ("conn.php");
 		//извлекаем зашифрованный пароль из БД
 		$query = mysqli_query($conn,"SELECT user_id, user_password FROM users WHERE user_login='".mysqli_real_escape_string($conn,$login)."' LIMIT 1");
 		$userInfo = mysqli_fetch_assoc($query);

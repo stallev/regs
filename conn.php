@@ -1,3 +1,3 @@
 <?php
-    $conn=mysqli_connect("localhost", "user1", "123123", "reg");
+	$conn=mysqli_connect("localhost", "user1", "123456", "wt");
 ?>
