@@ -31,3 +31,6 @@ tbody{
     width: 120px;
     text-align: center;
 }
+.hidden{
+    visibility: hidden;
+}

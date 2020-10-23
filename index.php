@@ -54,10 +54,14 @@
     <div class="container container--tasks">
         <ul class="tasks-list">
             <li class="task__item">
-                <a href="offspring.php" class="task__item-link">Приплод</a>
+                <h4>Получить приплод</h4>
+                <form action="temp_me-table.php" method="post" class="form-offspring">
+                    <input type="date" name="current-month">
+                    <input type="submit" name="submit" value="Вывести приплод">
+                </form>
             </li>
             <li class="task__item">
-                <a href="#" class="task__item-link"></a>
+                <a href="edit_table.php">Изменение таблицы</a>
             </li>
             <li class="task__item">
                 <a href="#" class="task__item-link"></a>
